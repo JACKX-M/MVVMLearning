@@ -9,7 +9,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Images\close.png" />
+    <None Remove="Assets\Images\Icon.png" />
+    <None Remove="Assets\Images\maximize.png" />
+    <None Remove="Assets\Images\maximized.png" />
+    <None Remove="Assets\Images\minimize.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+    <Folder Include="Models\" />
+    <Folder Include="Components\" />
+    <Folder Include="Base\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\close.png" />
+    <Resource Include="Assets\Images\Icon.png" />
+    <Resource Include="Assets\Images\maximize.png" />
+    <Resource Include="Assets\Images\maximized.png" />
+    <Resource Include="Assets\Images\minimize.png" />
   </ItemGroup>
 
 </Project>
